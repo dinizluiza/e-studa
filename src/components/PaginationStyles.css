@@ -1,0 +1,36 @@
+button{
+    border: none;
+    background: none;
+    color: #fefefe;
+    font-size: 17px;
+    font-weight: 1000;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    transition: 0.5s;
+	width: 40px;
+	height: 40px;
+	background: #96a5d4;
+    border: none;
+	border-radius: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.buttonItem:hover {
+    transition: 0.5s;
+	background: #4b548b;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  background: #fefefe;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #4b548b;
+  color: #fefefe;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #96a5d4;
+  transition: 0.3s;
+}

@@ -1,0 +1,20 @@
+.header img {
+    height: 100px;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    background: #f5f3f5;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+
+}
+
+@media screen and (max-width: 1040px) {
+    .header {
+        justify-content: center;
+    }
+
+}
